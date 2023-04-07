@@ -1,8 +1,8 @@
 from scapy.all import sr1, srp, send, wrpcap, Ether, ARP
 from random import randint
 
-ARP_IP = "10.25.4.69"
-BROADCAST_MAC = "8C-8D-28-97-53-56"
+ARP_IP = "172.16.173.242"
+BROADCAST_MAC = "8C:8D:28:97:53:56"
 
 SRC_PORT = randint(1024, 65535)
 HTTPS_PORT = 443
